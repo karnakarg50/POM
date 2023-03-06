@@ -31,7 +31,7 @@ public class LoginTest {
 	 * Login to application
 	 * Verify the home page using Dashboard message
 	 */
-
+ 
 	@Test(priority = 0)
 	public void test_Home_Page_Appear_Correct() {
 
