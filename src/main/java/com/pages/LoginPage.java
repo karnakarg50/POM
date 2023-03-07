@@ -35,11 +35,7 @@ public class LoginPage {
 	// Get the title of Login Page
 
 	public String getLoginTitle() {
-		System.out.println("Karunakar");
-		String el = driver.findElement(By.className("barone")).getText();
-		System.out.println(el);
 		return driver.findElement(titleText).getText();
-
 	}
 
 	/**
